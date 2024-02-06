@@ -1,7 +1,11 @@
-def palindrome(s):
-    s = s.replace(" ", "")
-    text = s.lower()
-    re_text = s.lower()[::-1]
-    if text == re_text:
-        return 'Палиндром'
-    return 'Не палиндром'
+def revive(stroke, creature ="Cyclops"):
+    edit_words = []
+    global creatures
+    for i in len(creatures):
+        if len(creatures[i]) > len(stroke):
+            creatures
+            creatures[i] = stroke
+
+creatures = ['Holy', 'Horror', 'greenish', 'boulders']
+revive('Monster')
+print(creatures)
